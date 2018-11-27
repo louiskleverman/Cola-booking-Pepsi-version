@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Adam;
+    src: url(../fonts/Adam.otf);
+}
+
+body{
+    font-family: roboto;
+}

@@ -1,0 +1,42 @@
+.reservation{
+    border:1px dotted black;
+    padding:5px 2px;
+    width:85px;
+    height:50px;
+    font-size: 11px;
+    color:rgb(100,100,100);
+    position:relative;
+}
+
+
+.table .cell{
+    margin:3px 3px;
+    display:inline-block;
+}
+
+.company0 {
+    opacity:0.6;
+}
+.company2 {
+    background-color: rgb(40, 97, 150);
+    border:2px solid rgb(40, 97, 150);
+    border-radius:2px;
+    color:white;
+}
+.company1 {
+    background-color: rgb(189, 68, 68);
+    border:2px solid rgb(189, 68, 68);
+    border-radius:2px;
+    color:white;
+}
+
+.reservation .delete{
+    position:absolute;
+    top:-5px;
+    right:2px;
+    cursor:pointer;
+}
+.reservation .information{
+    width:100%;
+    height:100%;
+}

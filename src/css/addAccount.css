@@ -1,0 +1,55 @@
+.addAccount{
+    background-color: rgb(38, 135, 184);
+    padding:25px;
+    border-top:4px solid rgb(185, 198, 214);
+    color:white;
+    margin-bottom:30px;
+}
+
+.addAccount h3{
+    text-align: center;
+    position:relative;
+    margin-bottom:30px;
+}
+.addAccount h3:after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:80px;
+    left: 50%;
+    bottom:-10px;
+    margin-left: -40px;
+    border-bottom:3px solid white;
+}
+
+.addAccount input{
+    background-color: rgba(0,0,0,0);
+    border:2px solid white;
+    padding:5px;
+    color:white;
+    width:300px;
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+}
+.addAccount input::placeholder{
+    color:rgb(212, 212, 212);
+}
+.addAccount button{
+    background-color: rgba(0,0,0,0);
+    border:2px solid white;
+    padding:5px;
+    color:white;
+    min-width:300px;
+    max-width:80%;
+    display:block;
+    margin:auto;
+    text-transform: uppercase;
+    transition: 0.2s;
+    cursor:pointer;
+}
+.addAccount button:hover{
+    background-color: white;
+    color:rgb(38, 135, 184);
+}
+

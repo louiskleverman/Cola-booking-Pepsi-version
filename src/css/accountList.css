@@ -1,0 +1,19 @@
+.accountList{
+    margin-top:20px;
+}
+.accountList h3{
+    text-align: center;
+    margin-bottom:30px;
+    position:relative;
+    color:rgb(49, 49, 49);
+}
+.accountList h3:after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:80px;
+    left: 50%;
+    bottom:-15px;
+    margin-left: -40px;
+    border-bottom:4px solid rgb(49, 49, 49);
+}

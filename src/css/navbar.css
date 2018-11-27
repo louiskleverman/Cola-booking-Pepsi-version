@@ -1,0 +1,48 @@
+.navbar{
+    display: block;
+    margin:auto;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.navbar .link{
+    display: inline-block;
+    padding:10px;
+    color:rgb(53, 53, 53);
+    position:relative;
+    text-decoration: none;
+    opacity:0.8;
+}
+.navbar .active{
+    opacity:1;
+}
+.navbar .link:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    left: 50%;
+    border-bottom: 2px solid rgb(53, 53, 53);
+    transition:0.2s;
+}
+
+.navbar .link:hover{
+    opacity:1;
+}
+.navbar .link:hover:after{
+    opacity:1;
+    border-bottom: 2px solid rgb(53, 53, 53);
+    width: 50%;
+    left: 25%;
+}
+
+.navbar .active:after{
+    border-bottom: 2px solid rgb(53, 53, 53);
+    width: 50%;
+    left:25%;
+}
+.navbar .active:hover:after{
+    width: 100%;
+    left:0px;
+}
