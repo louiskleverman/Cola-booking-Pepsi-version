@@ -94,8 +94,8 @@ contract booking{
     function addCokeEmployee(address _newEmployee) public isCokeEmployee(msg.sender){
         //Checking if duplicate
         bool isEmployeeBool = false;
-        for(uint i = 0 ; i < pepsi.length ; i++){
-            if(pepsi[i] == _newEmployee)
+        for(uint i = 0 ; i < coke.length ; i++){
+            if(coke[i] == _newEmployee)
                 isEmployeeBool = true;
         }
         require(!isEmployeeBool);
