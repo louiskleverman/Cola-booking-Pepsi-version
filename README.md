@@ -30,7 +30,11 @@ Then to run the app you simply need to run the following
 ```
 npm run start
 ```
+## How to link Coke app and Pepsi app
 
+Both apps are using the same contract so you are able to see some of the actions of the other app.
+
+One way to make sure you are linked to the same smart contract, is to have the same Booking.json file at /build/contracts.
 
 ## Technologies used
 
